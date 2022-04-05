@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
 }
 
 * {
@@ -25,6 +26,10 @@ ul {
 button {
   border: transparent;
   outline: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 :root {
