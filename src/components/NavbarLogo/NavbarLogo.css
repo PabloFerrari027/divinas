@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  color: white;
+  grid-area: logo;
+}
+
+.logo span {
+  margin-left: 1rem;
+}

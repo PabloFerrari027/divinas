@@ -1,0 +1,21 @@
+.handbag {
+  margin-left: auto;
+  margin-right: 2rem;
+  grid-area: handbag;
+}
+
+.handbag svg {
+  height: 1.5rem;
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .handbag {
+    margin-right: 0;
+  }
+
+  .handbag svg {
+    height: 2rem;
+    font-size: 4rem;
+  }
+}
