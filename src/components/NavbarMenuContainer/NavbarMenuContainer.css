@@ -36,16 +36,16 @@
   bottom: 0;
 }
 
-.menu-container button span:nth-child(1).active {
+.navbar-container .menu-container button span:nth-child(1).active {
   top: 50%;
   transform: rotateZ(45deg) translateY(-50%);
 }
 
-.menu-container button span:nth-child(2).active {
+.navbar-container .menu-container button span:nth-child(2).active {
   opacity: 0;
 }
 
-.menu-container button span:nth-child(3).active {
+.navbar-container .menu-container button span:nth-child(3).active {
   top: 50%;
   transform: rotateZ(-45deg) translateY(-50%);
 }

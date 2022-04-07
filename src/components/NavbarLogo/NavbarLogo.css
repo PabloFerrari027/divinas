@@ -1,4 +1,4 @@
-.logo {
+.navbar-container .logo {
   display: flex;
   align-items: center;
   column-gap: 10px;
@@ -6,6 +6,6 @@
   grid-area: logo;
 }
 
-.logo span {
+.navbar-container .logo span {
   margin-left: 1rem;
 }

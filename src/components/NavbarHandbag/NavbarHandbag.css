@@ -1,10 +1,10 @@
-.handbag {
+.navbar-container .handbag {
   margin-left: auto;
   margin-right: 2rem;
   grid-area: handbag;
 }
 
-.handbag svg {
+.navbar-container .handbag svg {
   height: 1.5rem;
   font-size: 3rem;
 }

@@ -1,3 +1,4 @@
+import { BannerEyelashes } from '../../components/BannerEyelashes'
 import { Footer } from '../../components/Footer'
 import { HomeSlider } from '../../components/HomeSlider'
 import { Navbar } from '../../components/Navbar'
@@ -10,6 +11,7 @@ export function Home() {
       <Navbar />
       <main className="home">
         <HomeSlider />
+        <BannerEyelashes />
       </main>
       <Footer />
     </>

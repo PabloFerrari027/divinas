@@ -1,10 +1,10 @@
-.items {
+.slider .items {
   width: 100%;
   height: 100%;
   display: flex;
 }
 
-.items .item {
+.slider .items .item {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -97,13 +97,13 @@
   }
 }
 
-.items .item:nth-child(1) {
+.slider .items .item:nth-child(1) {
   animation: slider1 60s infinite;
   transform: translateX(0);
   z-index: 1;
 }
 
-.items .item:nth-child(2) {
+.slider .items .item:nth-child(2) {
   transform: translateX(100%);
   animation: slider2 60s infinite;
 }

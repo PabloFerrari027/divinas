@@ -1,0 +1,49 @@
+.bannerEyelashes {
+  background-image: url('../../../public/images/bannerEyelashes.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  padding: 5vw;
+}
+
+.bannerEyelashes .content {
+  width: 100%;
+  background-color: rgba(49, 53, 61, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+  text-align: center;
+}
+
+.bannerEyelashes .content h1 {
+  color: var(--pink);
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+}
+
+.bannerEyelashes .content p {
+  color: #fff;
+  margin-bottom: 5vh;
+  line-height: 2.2rem;
+}
+
+.bannerEyelashes .content a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .bannerEyelashes .content h1 {
+    font-size: 2rem;
+  }
+
+  .bannerEyelashes .content p {
+    max-width: 60%;
+  }
+}
