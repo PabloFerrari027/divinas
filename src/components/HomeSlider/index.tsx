@@ -1,4 +1,3 @@
-import { HomeSliderContent } from '../HomeSliderItemsContent'
 import { HomeSliderItems } from '../HomeSliderItems'
 import './HomeSlider.css'
 
