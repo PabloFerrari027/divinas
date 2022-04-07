@@ -58,7 +58,6 @@
 }
 
 .box {
-  max-width: 60%;
   animation: animaLeft 60s infinite;
   transform: translate(15%);
   opacity: 0.5;
@@ -69,15 +68,13 @@
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 3vh;
+  max-width: 60%;
 }
 
 @media screen and (min-width: 768px) {
-  .box {
-    max-width: 50%;
-  }
-
   .content .box p {
     font-size: 4rem;
     margin-bottom: 5vh;
+    max-width: 60%;
   }
 }
