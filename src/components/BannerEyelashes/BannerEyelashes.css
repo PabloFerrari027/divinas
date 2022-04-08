@@ -21,10 +21,6 @@
 
 .bannerEyelashes .content h1 {
   color: var(--pink);
-  text-transform: uppercase;
-  line-height: 2.5rem;
-  font-size: 1.5rem;
-  margin-bottom: 3vh;
 }
 
 .bannerEyelashes .content p {
@@ -39,10 +35,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .bannerEyelashes .content h1 {
-    font-size: 2rem;
-  }
-
   .bannerEyelashes .content p {
     max-width: 60%;
   }

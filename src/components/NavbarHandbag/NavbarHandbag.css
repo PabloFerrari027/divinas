@@ -10,11 +10,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .handbag {
+  .navbar-container .handbag {
     margin-right: 0;
   }
 
-  .handbag svg {
+  .navbar-container .handbag svg {
     height: 2rem;
     font-size: 4rem;
   }

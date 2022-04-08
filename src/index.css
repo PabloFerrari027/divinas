@@ -37,6 +37,13 @@ p {
   font-size: 1rem;
 }
 
+h1 {
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+}
+
 :root {
   --black: #31353d;
   --pink: #fcbcb2;
@@ -46,22 +53,42 @@ p {
   padding: 0 5vw;
 }
 
-.btn-pink {
-  color: var(--black);
+.btn-pink,
+.btn-black {
   font-size: 1rem;
   padding: 0.5rem 1rem;
+  transition: opacity 0.2s ease-out;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btn-pink:hover,
+.btn-black:hover {
+  opacity: 0.8;
+}
+
+.btn-pink {
+  color: var(--black);
   background-color: var(--pink);
 }
 
+.btn-black {
+  color: var(--pink);
+  background-color: var(--black);
+}
+
 @media screen and (min-width: 768px) {
-  .btn-pink {
-    color: var(--black);
+  .btn-pink,
+  .btn-black {
     font-size: 1.2rem;
     padding: 1rem 3rem;
-    background-color: var(--pink);
   }
 
   p {
     font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
   }
 }
