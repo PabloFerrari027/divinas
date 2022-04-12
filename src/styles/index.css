@@ -76,7 +76,7 @@ input {
 .btn-pink,
 .btn-black {
   font-size: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1.2rem;
   transition: all 0.2s ease-out;
   cursor: pointer;
   opacity: 1;

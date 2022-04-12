@@ -1,5 +1,18 @@
 .footer {
   width: 100%;
+  background-color: var(--black);
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  color: white;
+  padding: 20vh 5vw 5vh 5vw;
+}
+
+.footer footer {
+  width: 100%;
   padding: 5vh 5vw;
   background-color: var(--pink);
   display: flex;
@@ -9,11 +22,24 @@
   row-gap: 0.5rem;
 }
 
-.footer * {
+.footer footer * {
   font-size: 1rem;
   text-align: center;
 }
 
-.footer a {
+.footer footer a {
   color: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    padding: 20vh 15vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      'newsletter newsletter'
+      'navegation benefits'
+      'navegation socialMedia';
+  }
 }

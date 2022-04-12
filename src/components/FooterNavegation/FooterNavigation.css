@@ -1,0 +1,17 @@
+.navegation {
+  grid-area: navegation;
+}
+
+.navegation ul {
+  columns: 2;
+}
+
+.navegation ul li {
+  font-size: 1rem;
+  font-family: var(--Josefin_Sans);
+}
+
+.navegation ul li a {
+  padding: 0.5rem 0;
+  color: white;
+}
