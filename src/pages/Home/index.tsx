@@ -1,3 +1,4 @@
+import React from 'react'
 import { BannerAppliques } from '../../components/BannerAppliques'
 import { BannerEyelashes } from '../../components/BannerEyelashes'
 import { BestSellers } from '../../components/BestSellers'
@@ -9,9 +10,9 @@ import { SeenIn } from '../../components/SeenIn'
 
 import './Home.css'
 
-export function Home() {
+const Home = () => {
   return (
-    <>
+    <div>
       <Loading />
       <Navbar />
       <main className="home">
@@ -22,6 +23,8 @@ export function Home() {
         <SeenIn />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
+
+export default Home
