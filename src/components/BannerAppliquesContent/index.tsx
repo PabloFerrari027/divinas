@@ -18,8 +18,10 @@ export function BannerAppliquesContent({
       </div>
       <div className="box">
         <h1>{title}</h1>
-        <button className={className}>
-          <a href={`${linkButton}`}>Comece já</a>
+        <button>
+          <a className={className} href={`${linkButton}`}>
+            Comece já
+          </a>
         </button>
       </div>
     </div>

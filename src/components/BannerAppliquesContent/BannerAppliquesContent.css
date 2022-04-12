@@ -1,5 +1,6 @@
 .bannerAppliques .content {
   height: 50vh;
+  min-height: 500px;
   width: 100%;
   display: flex;
   align-items: flex-end;

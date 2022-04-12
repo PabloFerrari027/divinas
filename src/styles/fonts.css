@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../../public/Fontes/Cinzel/Cinzel-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../../public/Fontes/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Julius_Sans_One';
+  src: url('../../public/Fontes/Julius_Sans_One/JuliusSansOne-Regular.ttf');
+}

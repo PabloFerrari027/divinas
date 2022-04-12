@@ -19,7 +19,7 @@ export function NavbarHandbag() {
           x="58.5"
           y="77"
           dy=".35em"
-          text-anchor="middle"
+          textAnchor="middle"
           data-hook="items-count"
           fill="#000"
         >

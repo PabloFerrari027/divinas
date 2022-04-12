@@ -16,8 +16,7 @@ export function HomeSliderContent({
           <p>{description}</p>
           <button>
             <a className="btn-pink" href={`${linkButton}`}>
-              {' '}
-              {textButton}{' '}
+              {textButton}
             </a>
           </button>
         </div>

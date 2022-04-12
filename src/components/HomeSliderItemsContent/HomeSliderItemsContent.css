@@ -69,6 +69,7 @@
   color: #fff;
   margin-bottom: 3vh;
   max-width: 60%;
+  font-family: var(--Cinzel);
 }
 
 @media screen and (min-width: 768px) {
