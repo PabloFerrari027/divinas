@@ -1,0 +1,39 @@
+.about .container {
+  padding: 15vh 5vw;
+  text-align: center;
+}
+
+.about .container p {
+  margin-bottom: 3vh;
+}
+
+.about .container .images {
+  margin-top: 12vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.about .container .images .img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .container .images .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .about .container {
+    padding: 15vh 20vw;
+  }
+
+  .about .container .images {
+    flex-direction: row;
+    align-items: center;
+  }
+}
