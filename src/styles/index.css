@@ -60,6 +60,10 @@ input {
   outline: none;
 }
 
+main {
+  padding-top: 10vh;
+}
+
 :root {
   --black: #31353d;
   --pink: #fcbcb2;
