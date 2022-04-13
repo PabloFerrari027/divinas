@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './FooterNavigation.css'
 
 export function FooterNavigation() {
@@ -17,16 +18,16 @@ export function FooterNavigation() {
           <a href="/">Acessórios</a>
         </li>
         <li>
-          <a href="/">Sobre Nós</a>
+          <Link to="/about">Sobre Nós</Link>
         </li>
         <li>
-          <a href="/">Contato</a>
+          <Link to="/contact">Contato</Link>
         </li>
         <li>
           <a href="/">Envio e Retorno</a>
         </li>
         <li>
-          <a href="/">Polítca da Loja</a>
+          <Link to="/privacy">Polítca da Loja</Link>
         </li>
         <li>
           <a href="/">Perguntas Frequentes</a>
