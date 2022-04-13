@@ -2,6 +2,11 @@
   padding: 20vh 5vw;
 }
 
+.privacy .container h2 {
+  margin-bottom: 2vh;
+}
+
 .privacy .container p {
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
+  line-height: 1.5rem;
 }
