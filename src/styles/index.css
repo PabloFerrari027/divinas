@@ -41,6 +41,7 @@ a {
 p {
   font-size: 1rem;
   font-family: var(--Josefin_Sans);
+  line-height: 1.5rem;
 }
 
 h1 {

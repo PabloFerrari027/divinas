@@ -1,0 +1,117 @@
+.contact .container {
+  padding: 10vh 5vw;
+  text-align: center;
+}
+
+.contact .container h1 {
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.contact .container p {
+  font-weight: 100;
+  font-size: 1rem;
+  margin-bottom: 2vh;
+}
+
+.contact .container .infos {
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  position: relative;
+}
+
+.contact .container .infos::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-80%);
+  height: 2px;
+  width: 50px;
+  background-color: var(--pink);
+}
+
+.contact .container .infos * {
+  font-weight: 100;
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.contact .container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .container .form h2 {
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: 3vh;
+  grid-area: title;
+}
+
+.contact .container .form input,
+.contact .container .form textarea {
+  border: none;
+  border-bottom: 2px solid var(--pink);
+  outline: none;
+  padding: 1%;
+  margin-bottom: 5vh;
+  font-family: var(--Josefin_Sans);
+  color: var(--black);
+}
+
+.contact .container .form input[name='name'] {
+  grid-area: name;
+}
+
+.contact .container .form input[name='email'] {
+  grid-area: email;
+}
+
+.contact .container .form input[name='tel'] {
+  grid-area: tel;
+}
+
+.contact .container .form textarea {
+  grid-area: description;
+}
+
+.contact .container .form button {
+  grid-area: button;
+}
+
+.contact .container .form input::placeholder {
+  font-family: var(--Josefin_Sans);
+  color: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+  .contact .container {
+    padding: 10vh 25vw;
+  }
+
+  .contact .container .form {
+    display: grid;
+    grid-template-rows: repeat(auto, 5);
+    gap: 3vh 3vw;
+    grid-template-areas:
+      'title title'
+      'name name'
+      'email tel'
+      'description description'
+      'button button';
+  }
+
+  .contact .container .form input,
+  .contact .container .form textarea,
+  .contact .container .form input::placeholder,
+  .contact .container .form h2 {
+    font-size: 1.1rem;
+  }
+
+  .contact .container .form button {
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+  }
+}
