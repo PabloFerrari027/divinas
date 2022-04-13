@@ -62,4 +62,10 @@
     margin: 0;
     cursor: pointer;
   }
+
+  .navbar-container .navegation ul li a {
+    font-size: 1rem;
+    margin: 0;
+    cursor: pointer;
+  }
 }
