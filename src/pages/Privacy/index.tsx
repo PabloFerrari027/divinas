@@ -1,3 +1,4 @@
+import { DescriptionPage } from '../../components/DescriptionPage'
 import { Footer } from '../../components/Footer'
 import { Loading } from '../../components/Loading'
 import { Navbar } from '../../components/Navbar'
@@ -10,8 +11,9 @@ export function Privacy() {
       <Loading />
       <Navbar />
       <main className="privacy">
+        <DescriptionPage description="Política da loja" />
         <div className="container">
-          <h1>Privacidade</h1>
+          <h2>Política da loja</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
             rerum voluptatem deserunt ipsa voluptatum libero porro aliquid
@@ -61,6 +63,8 @@ export function Privacy() {
             consequatur nemo? Consectetur iure esse in asperiores magnam, non
             vitae facere illo!
           </p>
+
+          <h2>Privacidade</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             earum, veniam minus corrupti qui eaque commodi inventore nobis in
@@ -86,6 +90,8 @@ export function Privacy() {
             sed enim accusantium consequatur aperiam sint, fugit expedita earum
             deleniti esse blanditiis tempore suscipit rem omnis.
           </p>
+
+          <h2>Termos de uso</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
             eaque doloremque assumenda officiis odit ipsam dolorem, adipisci

@@ -1,7 +1,11 @@
 .privacy .container {
-  padding: 20vh 5vw;
+  padding: 15vh 5vw;
+}
+
+.privacy .container h2 {
+  margin-bottom: 2vh;
 }
 
 .privacy .container p {
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
 }
