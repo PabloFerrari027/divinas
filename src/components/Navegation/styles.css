@@ -5,6 +5,7 @@
   grid-template-rows: auto auto auto;
   grid-template-areas: 'ul' 'seenin' 'social-media';
   padding: 5vh 0;
+  gap: 5vh;
 }
 
 .navegation ul {
