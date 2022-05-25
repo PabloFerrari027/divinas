@@ -1,0 +1,54 @@
+.product {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.product > .best-sellers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.3rem 2rem;
+  color: #ffffff;
+  background-color: var(--magenta);
+}
+
+.product .img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.product .img img {
+  width: 100%;
+}
+
+.product .img button {
+  transform: translateY(0%);
+
+  width: 100%;
+  font-size: 0.9rem;
+  transition: transform 0.5s ease;
+}
+
+.product:hover .img button {
+  transform: translateY(0%);
+}
+
+.product .content {
+  height: 10vh;
+  width: 100%;
+}
+
+.product .content h2 {
+  color: var(--black);
+}
+
+.product .content p {
+  color: var(--pink);
+}
+
+@media screen and (min-width: 1024px) {
+  .product .img button {
+    transform: translateY(100%);
+  }
+}

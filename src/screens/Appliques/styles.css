@@ -1,0 +1,45 @@
+.appliques {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.appliques .content:first-child {
+  align-items: flex-end;
+}
+
+.appliques .content:last-child {
+  align-items: flex-start;
+}
+
+.appliques .content:first-child .box {
+  background-color: var(--black);
+}
+
+.appliques .content:last-child .box {
+  background-color: var(--pink);
+}
+
+.appliques .content:first-child .box h1 {
+  color: var(--pink);
+}
+
+.appliques .content:last-child .box h1 {
+  color: var(--black);
+}
+
+@media screen and (min-width: 1024px) {
+  .appliques {
+    flex-direction: row;
+  }
+
+  .appliques .content:first-child {
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .appliques .content:last-child {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

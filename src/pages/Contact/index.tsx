@@ -1,9 +1,9 @@
-import { DescriptionPage } from '../../components/DescriptionPage'
-import { Footer } from '../../components/Footer'
-import { Loading } from '../../components/Loading'
-import { Navbar } from '../../components/Navbar'
+import DescriptionPage from '../../components/DescriptionPage'
+import Footer from '../../components/Footer'
+import Loading from '../../components/Loading'
+import Navbar from '../../components/Navbar'
 
-import './Contact.css'
+import './styles.css'
 
 export function Contact() {
   return (

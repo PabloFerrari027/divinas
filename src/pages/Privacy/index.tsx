@@ -1,8 +1,8 @@
-import { Footer } from '../../components/Footer'
-import { Loading } from '../../components/Loading'
-import { Navbar } from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Loading from '../../components/Loading'
+import Navbar from '../../components/Navbar'
 
-import './Privacy.css'
+import './styles.css'
 
 export function Privacy() {
   return (

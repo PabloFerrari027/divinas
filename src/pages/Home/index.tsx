@@ -1,14 +1,15 @@
-import React from 'react'
-import { BannerAppliques } from '../../components/BannerAppliques'
-import { BannerEyelashes } from '../../components/BannerEyelashes'
-import { BestSellers } from '../../components/BestSellers'
-import { Footer } from '../../components/Footer'
-import { HomeSlider } from '../../components/HomeSlider'
-import { Loading } from '../../components/Loading'
-import { Navbar } from '../../components/Navbar'
-import { SeenIn } from '../../components/SeenIn'
+import Footer from '../../components/Footer'
+import Loading from '../../components/Loading'
+import Navbar from '../../components/Navbar'
+import Navegation from '../../components/Navegation'
+import Newsletter from '../../components/Newsletter'
+import Appliques from '../../screens/Appliques'
+import BestSellers from '../../screens/BestSellers'
+import Carousel from '../../screens/Carousel'
+import Eyelashes from '../../screens/Eyelashes'
+import SeenIn from '../../screens/Seenin'
 
-import './Home.css'
+import './styles.css'
 
 const Home = () => {
   return (
@@ -16,12 +17,14 @@ const Home = () => {
       <Loading />
       <Navbar />
       <main className="home">
-        <HomeSlider />
-        <BannerEyelashes />
-        <BannerAppliques />
+        <Carousel />
+        <Eyelashes />
+        <Appliques />
         <BestSellers />
         <SeenIn />
       </main>
+      <Newsletter />
+      <Navegation />
       <Footer />
     </div>
   )

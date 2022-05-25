@@ -1,0 +1,129 @@
+.carousel {
+  width: 100%;
+  height: 30vh;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.carousel .items .item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease-in;
+}
+
+/* 
+
+  [] show        => 0%  to 22.5%
+  [] transition  => 22.5% to 27.5%
+  [] hide        => 27.5% to 72.5%
+  [] transition  => 72.5% to 77.5%
+  [] show        => 77.5% to 100%
+  
+*/
+
+@keyframes slider1 {
+  0% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  22.5% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  27.5% {
+    transform: translateX(-100%);
+    z-index: 1;
+  }
+
+  72.5% {
+    transform: translateX(100%);
+    z-index: 1;
+  }
+
+  77.5% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  100% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+}
+
+/* 
+  
+  [] hide       => 0%  to 22.5%
+  [] transition => 22.5% to 27.5%
+  [] show       => 27.5% to 72.5%
+  [] transition => 72.5% to 77.5%
+  [] hide       => 77.5% to 100%
+
+*/
+
+@keyframes slider2 {
+  0% {
+    transform: translateX(100%);
+    z-index: 1;
+  }
+
+  22.5% {
+    transform: translateX(100%);
+    z-index: 1;
+  }
+
+  27.5% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  72.5% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  77.5% {
+    transform: translateX(-100%);
+    z-index: 1;
+  }
+
+  100% {
+    transform: translateX(100%);
+    z-index: 1;
+  }
+}
+
+.carousel .items .item:nth-child(1) {
+  animation: slider1 60s infinite;
+  transform: translateX(0);
+  z-index: 1;
+}
+
+.carousel .items .item:nth-child(2) {
+  transform: translateX(100%);
+  animation: slider2 60s infinite;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel {
+    height: 90vh;
+  }
+}

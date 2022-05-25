@@ -1,18 +1,8 @@
-import { FooterBenefits } from '../FooterBenefits'
-import { FooterNavigation } from '../FooterNavegation'
-import { FooterNewsletter } from '../FooterNewsletter'
-import { FooterSocialMedia } from '../FooterSocialMedia'
-import './Footer.css'
+import './styles.css'
 
-export function Footer() {
+const Footer: React.FC = () => {
   return (
     <div className="footer">
-      <div className="container">
-        <FooterNewsletter />
-        <FooterNavigation />
-        <FooterBenefits />
-        <FooterSocialMedia />
-      </div>
       <footer>
         <p>© 2023 por Divinas. Orgulhosamente criado com Wix.com</p>
         <address>
@@ -27,3 +17,5 @@ export function Footer() {
     </div>
   )
 }
+
+export default Footer
