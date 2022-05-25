@@ -15,19 +15,31 @@
   display: flex;
 }
 
+.dropbox > .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1;
+}
+
 .dropbox .container {
   width: 80%;
   max-width: 900px;
   height: 90%;
+  max-height: 800px;
   background-color: #fff;
   display: flex;
   position: relative;
+  z-index: 2;
 }
 
 .dropbox .container .img {
   width: 50%;
   height: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -98,3 +110,9 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (min-width: 912px) {
+  .dropbox .container .img {
+    display: flex;
+  }
+} ;
