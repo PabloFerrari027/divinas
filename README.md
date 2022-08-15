@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Divinas 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🤔 About the project
+Divinas is a web project that I built using React Js. It consists of an e-commerce of a beauty salon. The project is fully responsive, that is, it adjusts to all screens.
+---
 
-## Available Scripts
+## 🧪 Technologies used
+<div style="display: inline_block">
+  <img align="center" alt="React js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+</div>
 
-In the project directory, you can run:
+## 🔗 Domain
+<a href="https://www.divinas.online/" >https://www.divinas.online/</a>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔥 How to run the project
+Clone the project and access the project folder.
+```bash
+$ git clone https://github.com/PabloFerrari013/divinas
+$ cd divinas
+```
+To start it, follow the steps below:
+```bash
+# Install as dependencies
+$ yarn 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Start the project
+yarn start
+```
+The app is available in your browser at http://localhost:3000
 
-### `npm test`
+---
+Made with ❤️ by Pablo Ferrari 🤟🏽 [Linkedin](https://www.linkedin.com/in/pablo-ferrari-32bb7a1a8/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
